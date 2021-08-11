@@ -66,7 +66,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 .topbar_phone a{font-size: 18px; font-weight: bold; color: #fff; text-decoration: none;}
 .topbar_phone i{padding-right: 6px; font-size: 20px;}
 .topbar_login{display: inline-block; margin-left: 10px;}
-.topbar_login a{text-decoration: none; background: #ffb900; color: #000; font-weight: bold; padding: 13px 26px; display: block;}
+.topbar_login a{text-decoration: none; background: red; color: white; font-weight: bold; padding: 13px 26px; display: block;}
 .topbar_login i{padding-right: 7px;}
 .top_right{text-align: right;}
 
@@ -90,7 +90,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 .header-wrap .dropdown-menu:before{content:""; width: 0; height: 0; border-left:10px solid transparent; border-right:10px solid transparent; border-bottom: 10px solid #fff; position: absolute; left: 50%; margin-left: -5px; z-index:1000; top:-10px;}
 .navbar li a{position:relative;}
 .navbar li:last-child a:after{border-radius:30px;}
-.navbar-light .navbar-nav .nav-item:hover .nav-link, .navbar-light .navbar-nav .nav-link:hover{color:#fff !important; background: #ffb900; }
+.navbar-light .navbar-nav .nav-item:hover .nav-link, .navbar-light .navbar-nav .nav-link:hover{color:#fff !important; background: red; }
 .tp-bannertimer{display:none;}
 .navbar{float: right;}
 .navbar-light .navbar-nav .nav-item:hover .nav-link .caret, .navbar-light .navbar-nav .nav-link:hover .caret{color: #fff !important;}
@@ -111,7 +111,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 }
 
 .submenu>li:hover>a {
-    background: #ffb900;
+    background: red;
     color: #fff !important; 
 }
 
@@ -185,7 +185,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 .submenu_right{background:#fff; position: absolute; top: 0; left: 100%; width: 200px;}
 .submenu_right li{padding-bottom: 0; padding: 0px; border-bottom: 1px solid #e8e8e8;}
 .submenu_right li a{display: block; font-size: 14px; font-weight: 600; padding: 10px 20px; color: #000; text-decoration: none;}
-.submenu_right li a:hover{background: #ffb900; color: #fff !important;}
+.submenu_right li a:hover{background: red; color: #fff !important;}
 .submenu li:hover .submenu_right{display: block;}
 .right_angle{position: absolute; top:8px; right: 10px; font-size: 18px !important;}
 
