@@ -197,7 +197,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 	   == Slider Css Start ==
 ********************************************/
 .slider-wrap{background:url(../images/banner-bg.jpg) no-repeat top; background-size:cover; padding:70px 0 80px 0;}
-.sliderTxt h1{font-size:60px; color:#fff; text-transform: uppercase; font-weight: 600; margin-top:0; text-align:center;}
+.sliderTxt h1{font-size:48px; color:#fff; text-transform: uppercase; font-weight: 600; margin-top:0; text-align:center;}
 .sliderTxt p{font-size:18px; color:#fff; letter-spacing: 2px; text-align:center;}
 .form-wrap{background: rgba(255, 255, 255, 0.14); padding: 25px;}
 .slider-wrap .input-group .form-control{border:none; font-size: 14px; border-radius:0 !important; height: 48px;}
@@ -1800,7 +1800,7 @@ button:focus{outline: none;}
 .end_date, .form-wrap .col-lg-5{padding-right: 15px;}
 .form-wrap .col-lg-2, .form-wrap .col-lg-3{padding-left: 15px;}
 .form-wrap .input-group{margin-bottom: 6px;}
-.sliderTxt h1{font-size: 48px;}
+.sliderTxt h1{font-size: 36px;}
 .story_box h3, .story_box p, .story_box{text-align: center;}
 .story_box p{margin-bottom: 30px;}
 .story-wrap{padding: 90px 0 40px 0;}
