@@ -56,11 +56,17 @@ p{font-size:14px; line-height:24px; color:#333;}
 .zigzaga{
     text-decoration: none;
     color: red;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .zigzaga:hover{
     text-decoration: none;
-    color: orangered;
+    color: #FF5C5C;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .txtformat1{
@@ -68,11 +74,13 @@ p{font-size:14px; line-height:24px; color:#333;}
     padding: 20px;
     background-color: #3B3B3B;
     color: white;
+    font-family: 'Poppins', sans-serif;
 
 }
 .txtformat2{
 
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
 
 
 }
@@ -81,6 +89,7 @@ p{font-size:14px; line-height:24px; color:#333;}
     padding: 20px;
     background-color: #3B3B3B;
     color: white;
+    font-family: 'Poppins', sans-serif;
 
 }
 
