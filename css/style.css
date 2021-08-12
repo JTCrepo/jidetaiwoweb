@@ -57,14 +57,14 @@ p{font-size:14px; line-height:24px; color:#333;}
     text-decoration: none;
     color: red;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
     font-family: 'Poppins', sans-serif;
 }
 
 .zigzaga:hover{
     text-decoration: none;
     color: #FF5C5C;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
@@ -72,7 +72,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 .txtformat1{
 
     padding: 20px;
-    background-color: #3B3B3B;
+    background-color: #634F40;
     color: white;
     font-family: 'Poppins', sans-serif;
 
@@ -87,7 +87,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 .txtformat3{
 
     padding: 20px;
-    background-color: #3B3B3B;
+    background-color: #634F40;
     color: white;
     font-family: 'Poppins', sans-serif;
 
@@ -95,9 +95,10 @@ p{font-size:14px; line-height:24px; color:#333;}
 
 
  div.cardcount {
-     width: 250px;
+     width: auto;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      text-align: center;
+
  }
 
 div.headercount {
