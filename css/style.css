@@ -53,9 +53,34 @@ p{font-size:14px; line-height:24px; color:#333;}
 .readmore a{text-decoration: none; font-size: 14px; color: #fff; display: inline-block; font-weight: bold; text-transform: uppercase; background: red; padding: 14px 36px;}
 .readmore a:hover{background: #000;}
 
-.txtformat{
-    text-align: justify;
+.zigzaga{
+    text-decoration: none;
+    color: red;
+}
+
+.zigzaga:hover{
+    text-decoration: none;
+    color: orangered;
+}
+
+.txtformat1{
+
     padding: 20px;
+    background-color: #3B3B3B;
+    color: white;
+
+}
+.txtformat2{
+
+    padding: 20px;
+
+
+}
+.txtformat3{
+
+    padding: 20px;
+    background-color: #3B3B3B;
+    color: white;
 
 }
 
