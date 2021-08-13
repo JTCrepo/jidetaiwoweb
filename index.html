@@ -115,12 +115,19 @@
                     <div class="row">
                       <div class="col-lg-5">
                         <div class="input-group origin">
-                          <input type="text" name=" Origin" placeholder="Enter Property, Location, Landmark ..." class="form-control">
+                          <input type="text" name=" Origin" placeholder="Enter State, Location ..." class="form-control">
                         </div>
                       </div>
                       <div class="col-lg-4">
-                        <div class="input-group destination">
-                          <input type="text" name=" Destination" placeholder="City" class="form-control">
+                        <div class="input-group">
+                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Buy/Rent</span>
+                            <ul class="list">
+
+                              <li data-value="Residential" class="option">Buy</li>
+                              <li data-value="Commercial" class="option">Rent</li>
+
+                            </ul>
+                          </div>
                         </div>
                       </div>
                       <div class="col-lg-3">
@@ -192,51 +199,56 @@
                     <div class="row">
                       <div class="col-lg-5">
                         <div class="input-group origin">
-                          <input type="text" name=" Origin" placeholder="Enter Property, Location, Landmark ..." class="form-control">
+                          <input type="text" name=" Origin" placeholder="Enter State, Location ..." class="form-control">
                         </div>
                       </div>
                       <div class="col-lg-4">
-                        <div class="input-group destination">
-                          <input type="text" name=" Destination" placeholder="Location" class="form-control">
+                        <div class="input-group">
+                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current"> Category</span>
+                            <ul class="list">
+                              <li data-value="Property Type" data-display="Property Type" class="option selected focus">Development</li>
+                              <li data-value="Residential" class="option">Industrial</li>
+                              <li data-value="Commercial" class="option">Leisure</li>
+                              <li data-value="Land" class="option">Office</li>
+                              <li data-value="Luxury" class="option">Hotel</li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                       <div class="col-lg-3">
                         <div class="input-group">
-                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Property Type</span>
+                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Property use</span>
                             <ul class="list">
-                              <li data-value="Property Type" data-display="Property Type" class="option selected focus">Property Type</li>
-                              <li data-value="Residential" class="option">Residential</li>
-                              <li data-value="Commercial" class="option">Commercial</li>
-                              <li data-value="Land" class="option">Land</li>
-                              <li data-value="Luxury" class="option">Luxury</li>
+                              <li data-value="Property Type" data-display="Property Type" class="option selected focus">Land</li>
+                              <li data-value="Residential" class="option">Healthcare</li>
+                              <li data-value="Commercial" class="option">Existing Building</li>
+                              <li data-value="Land" class="option">Hotel</li>
+                              <li data-value="Luxury" class="option">Residential and New Development</li>
                             </ul>
                           </div>
                         </div>
                       </div>
                       <div class="col-lg-3 end_date">
                         <div class="input-group">
-                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Bedrooms</span>
+                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Buy/Rent</span>
                             <ul class="list">
-                              <li data-value="Bedrooms" data-display="Bedrooms" class="option selected focus">Bedrooms</li>
-                              <li data-value="1" class="option">1</li>
-                              <li data-value="2" class="option">2</li>
-                              <li data-value="3" class="option">3</li>
-                              <li data-value="4" class="option">4</li>
-                              <li data-value="5" class="option">5</li>
+                              <li data-value="Bedrooms" data-display="Bedrooms" class="option selected focus">Buy</li>
+                              <li data-value="1" class="option">Rent</li>
+
+
                             </ul>
                           </div>
                         </div>
                       </div>
                       <div class="col-lg-3 economy">
                         <div class="input-group">
-                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Bathrooms</span>
+                          <div class="nice-select form-control wide select_option" tabindex="0"><span class="current">Property size</span>
                             <ul class="list">
-                              <li data-value="Bathrooms" data-display="Bathrooms" class="option selected">Bathrooms</li>
-                              <li data-value="1" class="option">1</li>
-                              <li data-value="2" class="option">2</li>
-                              <li data-value="3" class="option">3</li>
-                              <li data-value="4" class="option">4</li>
-                              <li data-value="5" class="option">5</li>
+                              <li data-value="Bathrooms" data-display="Bathrooms" class="option selected">Ac</li>
+                              <li data-value="1" class="option">Sq Ft</li>
+                              <li data-value="2" class="option">Sq m</li>
+                              <li data-value="3" class="option">Ha</li>
+
                             </ul>
                           </div>
                         </div>
