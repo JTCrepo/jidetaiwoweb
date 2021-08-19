@@ -16,36 +16,41 @@
 <link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="css/nice-select.css">
 <link href="css/style.css" rel="stylesheet">
-<title>Real Estate</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Jide Taiwo & Co.</title>
+  <script src="js/scroller.js"></script>
 </head>
 <body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--Topbar Start-->
 <div class="topbar-wrap">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-4">
-        <ul class="social_media style_none">
-          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-        </ul>
+        <!--     <ul class="social_media style_none">
+              <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>  -->
       </div>
       <div class="col-lg-6 col-md-8">
         <div class="top_right">
-          <div class="topbar_phone"><a href="#"><i class="fas fa-phone-alt" aria-hidden="true"></i> (770) 123 4657 </a></div>
-          <div class="topbar_login"><a href="submit_property.html"> Submit Property</a></div>
+          <!--     <div class="topbar_phone"><a href="#"><i class="fas fa-phone-alt" aria-hidden="true"></i> (070) 0543 382496 </a></div>  -->
+          <div class="topbar_login"><a href="#"> My Account</a></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!--Topbar End-->
 
 <!--Header Start-->
 <div class="header-wrap wow fadeInUp">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 navbar navbar-expand-lg navbar-light">
-        <div class="header_logo"><a href="#"><img src="images/logo.png"></a></div>
+      <div class="col-lg-3 navbar navbar-expand-lg navbar-light navbar-fixed-top">
+        <div class="header_logo"><a href="index.html"><img alt="" src="images/logo.png"></a></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       </div>
       <div class="col-lg-9">
@@ -53,53 +58,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <button class="close-toggler" type="button" data-toggle="offcanvas"> <span><i class="fas fa-times-circle" aria-hidden="true"></i></span> </button>
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active"><a class="nav-link" href="index.html"> Home <span class="caret"><i class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
-                <ul class="submenu">
-                  <li><a href="index.html">Home Image</a></li>
-                  <li><a href="index_slider.html">Home Slider</a></li>
-                  <li><a href="index_video.html">Home Video</a></li>
-                  <li><a href="index_map.html">Home Map</a></li>
-                </ul>
+              <li class="nav-item active"><a class="nav-link" href="propertysearch.html">Find a property</a>
+
               </li>
-              <li class="nav-item"><a class="nav-link" href="#"> Listing <span class="caret"><i class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
-                <ul class="submenu">
-                  <li><a href="property_grid.html">Property Grid</a></li>
-                  <li><a href="property_list.html">Property List</a></li>
-                  <li><a href="property_map.html">Property Map</a></li>
-                  <li><a href="property_single.html">Property Single</a></li>
-                </ul>
+              <li class="nav-item"><a class="nav-link" href="submit_property.html">Market your property</a>
+
               </li>
-              <li class="nav-item"><a class="nav-link" href="#."> Features <span class="caret"><i class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
-                <ul class="submenu">
-                  <li><a href="agents.html">Agents</a></li>
-                  <li><a href="agents_single.html">Agents Single</a></li>
-                  <li><a href="agencies.html">Agencies</a></li>
-                  <li><a href="agencies_single.html">Agencies Details</a></li>
-                  <li><a href="submit_property.html">Submit Property</a></li>
-                </ul>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a>
+
               </li>
-              <li class="nav-item"><a class="nav-link" href="#."> Pages <span class="caret"><i class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
-                <ul class="submenu">
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="team.html">Our Team</a></li>
-                  <li><a href="login.html">Login</a></li>
-                  <li><a href="register.html">Register</a></li>
-                  <li><a href="faqs.html">Faqs</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                  <li><a href="pricing.html">Pricing Table</a></li>
-                  <li><a href="404.html">Page 404 </a></li>
-                  <li><a href="typography.html">Typography</a></li>
-                </ul>
+
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a>
+
               </li>
-              <li class="nav-item"><a class="nav-link" href="blog.html"> Blog <span class="caret"><i class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
-                <ul class="submenu">
-                  <li><a href="blog.html">Blog Grid</a></li>
-                  <li><a href="blog_grid.html">Blog Grid with Sidebar</a></li>
-                  <li><a href="blog_list.html">Blog List</a></li>
-                  <li><a href="blog_single.html">Blog Single</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="contact.html"> Contact Us</a></li>
+
+              <li class="nav-item"><a class="nav-link" href="#">Research</a>
+
+                <!--              </li>-->
+
+                <!--              <li class="nav-item"><a class="nav-link" href="blog_list.html"> Blog & Publication  <span class="caret"></span></a> <i class="fas fa-caret-down"></i>-->
+
+                <!--              </li>-->
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -107,12 +87,14 @@
     </div>
   </div>
 </div>
-<!--Header End--> 
+
+<!--Header End-->
 
 <!--Inner Heading Start-->
 <div class="innerHeading">
   <div class="container">
-    <h1>Submit Property</h1>
+    <h1>Market Your Property with us</h1>
+    <p style="color: white">Whether you're planning to sell, rent or are undecided, we have an expert who can help.</p>
   </div>
 </div>
 <!--Inner Heading End--> 
@@ -120,9 +102,9 @@
 <!--Inner Content Start-->
 <div class="innercontent property_submit">
   <div class="container">
-    <h3 class="desc_head">Basic Information</h3>
+    <h3 class="desc_head">Fill Your Property Information</h3>
     <div class="formcol">
-      <form class="form mb-md50" id="contact-form" method="post" action="http://malikhassan.com/html/evernest/contact.php" novalidate="">
+      <form class="form mb-md50" id="contact-form" method="post" action="http://" novalidate="">
         <div class="messages"></div>
         <div class="controls">
           <div class="row">
@@ -150,7 +132,7 @@
                     <li data-value="Residential" class="option">Residential</li>
                     <li data-value="Commercial" class="option">Commercial</li>
                     <li data-value="Land" class="option">Land</li>
-                    <li data-value="Luxury" class="option">Luxury</li>
+
                   </ul>
                 </div>
               </div>
@@ -255,21 +237,55 @@
   <div class="container">
     <div class="footer-upper">
       <div class="row">
-        <div class="col-lg-3 col-md-12">
-          <div class="footer-widget about-widget"> <a href="#"> <img src="images/logo2.png" alt="Awesome Image"> </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean urna magna, mattis at ullamcorper in, pharetra in lorem. Etiam mollis.</p>
-            <div class="readmore"><a href="#">Read More </a></div>
+        <div class="col-lg-2 col-md-3">
+          <div class="footer-widget quick-links">
+            <h3 class="title">Offices</h3>
+            <ul>
+              <li><a href="#."> Head Office</a> </li>
+              <li><a href="#."> Abeokuta</a> </li>
+              <li><a href="#."> Abuja</a> </li>
+              <li><a href="#."> Agege</a> </li>
+              <li><a href="#."> Apapa</a> </li>
+              <li><a href="#."> Akure</a> </li>
+              <li><a href="#."> Ibadan</a> </li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-2 col-md-3">
           <div class="footer-widget quick-links">
-            <h3 class="title">Quick links</h3>
+            <h3 class="title">Residential</h3>
             <ul>
-              <li><a href="#."> Home</a> </li>
-              <li><a href="#."> Properties</a> </li>
-              <li><a href="#."> Agents</a> </li>
-              <li><a href="#."> Blogs</a> </li>
-              <li><a href="#."> Contact Us</a> </li>
+              <li><a href="#."> Property for sale/rent in Abeokuta</a> </li>
+              <li><a href="#."> Property for sale/rent in Abuja</a> </li>
+              <li><a href="#."> Property for sale/rent in Agege</a> </li>
+              <li><a href="#."> Property for sale/rent in Apapa</a> </li>
+              <li><a href="#."> Property for sale/rent in Akure</a> </li>
+              <li><a href="#."> Property for sale/rent in Ibadan</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <div class="footer-widget quick-links">
+            <h3 class="title">Commericial</h3>
+            <ul>
+              <li><a href="#."> Property for sale/rent in Abeokuta</a> </li>
+              <li><a href="#."> Property for sale/rent in Abuja</a> </li>
+              <li><a href="#."> Property for sale/rent in Agege</a> </li>
+              <li><a href="#."> Property for sale/rent in Apapa</a> </li>
+              <li><a href="#."> Property for sale/rent in Akure</a> </li>
+              <li><a href="#."> Property for sale/rent in Ibadan</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <div class="footer-widget quick-links">
+            <h3 class="title">Services</h3>
+            <ul>
+              <li><a href="#."> Valuation</a> </li>
+              <li><a href="#."> Agency</a> </li>
+              <li><a href="#."> Facility Management</a> </li>
+              <li><a href="#."> Project Development</a> </li>
+              <li><a href="#."> Public Sector</a> </li>
             </ul>
           </div>
         </div>
@@ -279,21 +295,21 @@
             <ul class="property_sec">
               <li>
                 <div class="rec_proprty">
-                  <div class="propertyImg"><img src="images/property_small01.jpg"></div>
+                  <div class="propertyImg"><img alt="" src="images/property_small01.jpg"></div>
                   <div class="property_info">
-                    <h4><a href="#">1324 Tennessee Road</a></h4>
-                    <p>Minneapolis, MN 55402</p>
-                    <div class="priceWrp">$98.00</div>
+                    <h4><a href="#">Detached 4 Bedroom House with guest house</a></h4>
+                    <p>Ikoyi, Lagos</p>
+                    <div class="priceWrp">N5,000,000</div>
                   </div>
                 </div>
               </li>
               <li>
                 <div class="rec_proprty">
-                  <div class="propertyImg"><img src="images/property_small02.jpg"></div>
+                  <div class="propertyImg"><img alt="" src="images/property_small02.jpg"></div>
                   <div class="property_info">
-                    <h4><a href="#">1324 Tennessee Road</a></h4>
-                    <p>Minneapolis, MN 55402</p>
-                    <div class="priceWrp">$98.00</div>
+                    <h4><a href="#">4-bedroom Bungalow house</a></h4>
+                    <p>Lekki, Lagos</p>
+                    <div class="priceWrp">N5,000,000</div>
                   </div>
                 </div>
               </li>
@@ -304,9 +320,9 @@
           <div class="footer-widget contact">
             <h3 class="title">Contact Info</h3>
             <ul class="footer-adress">
-              <li class="footer_address"> <i class="fas fa-map-signs"></i> <span>123 Lorem Ipsum, 45 sit Atlanta</span> </li>
-              <li class="footer_email"> <i class="fas fa-envelope" aria-hidden="true"></i> <span><a href="mailto:info@realestate.com"> info@realestate.com </a></span> </li>
-              <li class="footer_phone"> <i class="fas fa-phone-alt"></i> <span><a href="tel:7704282433"> 770-123-4567</a></span> </li>
+              <li class="footer_address"> <i class="fas fa-map-signs"></i> <span>Plot 136, Sinari Daranijo Street, Off Ajose Adeogun Street, Victoria Island, Lagos - Nigeria</span> </li>
+              <li class="footer_email"> <i class="fas fa-envelope" aria-hidden="true"></i> <span><a href="mailto:info@realestate.com"> info@jidetaiwoandco.com </a></span> </li>
+              <li class="footer_phone"> <i class="fas fa-phone-alt"></i> <span><a href="tel:0700543382496"> 0700JIDETAIWO, (0700543382496)</a></span> </li>
             </ul>
             <div class="social-icons footer_icon">
               <ul>
